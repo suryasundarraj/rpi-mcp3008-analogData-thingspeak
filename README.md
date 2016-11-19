@@ -8,7 +8,7 @@ This Project Demonstrates how to integrate the analog input with the raspberry p
 
 The interface between the MCP3008 and Raspberry Pi is acheived using SPI Communication Protocol.
 
-## PREREQUSITES 
+## PREREQUISITES 
 
 1.  Raspberry Pi with Raspbian OS 
 
