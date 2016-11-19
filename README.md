@@ -55,5 +55,7 @@ Then to finish we can download ‘py-spidev’ and compile it ready for use :
   cd py-spidev-master
   sudo python setup.py install
   cd ..
+  
+  
 
 
