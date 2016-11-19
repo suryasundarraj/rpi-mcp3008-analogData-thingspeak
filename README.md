@@ -1,7 +1,22 @@
 # rpi-mcp3008-analogData-thingspeak
-This Project has a basic demo with analog sensor, where the data from the analog sensor are visualized in the thingspeak api
 
-## Setting up the enviroinment 
+Basic Setup to integrate analog sensor with Raspberry Pi, where the data from the analog sensor are visualized in the Thingspeak API
+
+## OVERVIEW
+
+This Project Demonstrates how to integrate the analog input with the raspberry pi and track the data. The data is also visiualized with the Thingspeak API. There is no inbuilt analog input for the raspberry pi, MCP3008 is Analaog to Digital Converter which is used to interface the analog sensor with the Raspberry Pi. 
+
+The interface between the MCP3008 and Raspberry Pi is acheived using SPI Communication Protocol.
+
+## PREREQUSITES 
+
+1.  Raspberry Pi with Raspbian OS 
+
+2.  Account on Thingspeak and generate a channel, you will be provided with the unique API Key 
+
+# Build and Install 
+
+## Setting up the SPI enviroinment on Raspberry Pi
 
 This process assumes you are using the latest Raspbian build from the official downloads page. You can update your current image using :
 
@@ -62,6 +77,15 @@ Then to finish we can download ‘py-spidev’ and compile it ready for use :
   
     cd ..
 
+## WORKING
+
+1.  Clone the repo in the Raspberry pi 
+
+        git clone https://github.com/suryasundarraj/rpi-mcp3008-analogData-thingspeak
+
+2.  Modify the Uinque API Key from the thingspeak channel 
+
+3.  Run the Program and visiualize the data graphically on the thingspeak         
   
 
 
