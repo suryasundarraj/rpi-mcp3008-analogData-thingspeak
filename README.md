@@ -27,7 +27,7 @@ The interface between the MCP3008 and Raspberry Pi is acheived using SPI Communi
 
 3. Open the channel created by you and Click on API Keys
 
-[image_apikey]: images/apikey.png
+[image_apikey]: images/apikey.PNG
 ![image] [image_apikey]
 
 4. Copy the Write API Key and Paste it on the adcRpi/adcRpi.py Line Number 11
