@@ -18,14 +18,17 @@ The interface between the MCP3008 and Raspberry Pi is acheived using SPI Communi
 
 ## Thingspeak Configuration
 
-1. Login to your Thingspeak Account 
-2. Click on Channels -> My Channels 
+Step 1: Login to your Thingspeak Account 
+
+Step 2: Click on Channels -> My Channels 
 [image_channel]: images/channel.png
 ![image] [image_channel]
-3. Open the channel created by you and Click on API Keys
+
+Step 3: Open the channel created by you and Click on API Keys
 [image_apikey]: images/apikey.PNG
 ![image] [image_apikey]
-4. Copy the Write API Key and Paste it on the adcRpi/adcRpi.py Line Number 11
+
+Step 4: Copy the Write API Key and Paste it on the adcRpi/adcRpi.py Line Number 11
 
 ## Setting up the SPI enviroinment on Raspberry Pi
 
