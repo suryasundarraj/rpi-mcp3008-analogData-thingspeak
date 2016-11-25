@@ -1,4 +1,4 @@
-# rpi-mcp3008-analogData-thingspeak
+# Sensing Analog Signal using Raspberry Pi
 
 Basic Setup to integrate analog sensor with Raspberry Pi, where the data from the analog sensor are visualized in the Thingspeak API
 
@@ -15,6 +15,14 @@ The interface between the MCP3008 and Raspberry Pi is acheived using SPI Communi
 2.  Account on Thingspeak and generate a channel, you will be provided with the unique API Key 
 
 # Build and Install 
+
+## Thingspeak Configuration
+
+1. Login to your Thingspeak Account and Click on My Channels 
+
+2. Open the channel created by you and Click on API Keys
+
+3. Copy the Write API Key and Paste it on the adcRpi/adcRpi.py Line Number 11
 
 ## Setting up the SPI enviroinment on Raspberry Pi
 
@@ -55,7 +63,7 @@ In order to read data from the SPI bus in Python we need a library. This library
 
 You should see the two python spidev packages listed in the output.
 
-## Obsolete Installation Step
+## Installation Step
 
 Previously you needed to install a library called ‘py-spidev’. I’ve left the instructions here for anyone who is using an older image.
 
@@ -77,15 +85,7 @@ Then to finish we can download ‘py-spidev’ and compile it ready for use :
   
     cd ..
 
-## WORKING
-
-1.  Clone the repo in the Raspberry pi 
-
-        git clone https://github.com/suryasundarraj/rpi-mcp3008-analogData-thingspeak
-
-2.  Modify the Uinque API Key from the thingspeak channel 
-
-3.  Run the Program and visiualize the data graphically on the thingspeak         
+    
   
 
 
