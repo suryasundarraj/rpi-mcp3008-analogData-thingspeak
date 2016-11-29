@@ -1,6 +1,6 @@
 # Sensing Analog Signal using Raspberry Pi
 
-Basic Setup to integrate analog sensor with Raspberry Pi, where the data from the analog sensor are visualized in the Thingspeak API
+Basic Setup to integrate analog sensor with Raspberry Pi, where the data from the analog sensor are visualized in the Thingspeak API. This repository accompanying  with this [blog post][http://radiostud.io/sensing-analog-signal-raspberrypi/]
 
 # OVERVIEW
 
