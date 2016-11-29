@@ -2,21 +2,19 @@
 
 Basic Setup to integrate analog sensor with Raspberry Pi, where the data from the analog sensor are visualized in the Thingspeak API
 
-## OVERVIEW
+# OVERVIEW
 
 This Project Demonstrates how to integrate the analog input with the raspberry pi and track the data. The data is also visiualized with the Thingspeak API. There is no inbuilt analog input for the raspberry pi, MCP3008 is Analaog to Digital Converter which is used to interface the analog sensor with the Raspberry Pi. 
 
 The interface between the MCP3008 and Raspberry Pi is acheived using SPI Communication Protocol.
 
-## PREREQUISITES 
+# PREREQUISITES 
 
 1.  Raspberry Pi with Raspbian OS 
 
 2.  Account on Thingspeak and generate a channel, you will be provided with the unique API Key 
 
-# Build and Install 
-
-## Thingspeak Configuration
+# Thingspeak Configuration
 
 Step 1: Login to your Thingspeak Account 
 
@@ -29,6 +27,8 @@ Step 3: Open the channel created by you and Click on API Keys
 ![image] [image_apikey]
 
 Step 4: Copy the Write API Key and Paste it on the adcRpi/adcRpi.py Line Number 11
+
+# Build and Install 
 
 ## Setting up the SPI enviroinment on Raspberry Pi
 
