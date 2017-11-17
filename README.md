@@ -91,7 +91,7 @@ Then to finish we can download ‘py-spidev’ and compile it ready for use :
   
     cd ..
 
-##LOOPBACK TEST
+## LOOPBACK TEST
 
 This can be used to test SPI send and receive. Put a wire between MOSI and MISO. It does not test CE0 and CE1.
 
@@ -101,7 +101,7 @@ gcc -o spidev_test spidev_test.c
 
 ./spidev_test -D /dev/spidev0.0
 
-###OUTPUT:
+### OUTPUT:
 spi mode: 0
 bits per word: 8
 max speed: 500000 Hz (500 KHz)
