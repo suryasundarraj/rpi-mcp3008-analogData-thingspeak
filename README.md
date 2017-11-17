@@ -102,6 +102,7 @@ gcc -o spidev_test spidev_test.c
 ./spidev_test -D /dev/spidev0.0
 
 ### OUTPUT:
+
 spi mode: 0
 bits per word: 8
 max speed: 500000 Hz (500 KHz)
